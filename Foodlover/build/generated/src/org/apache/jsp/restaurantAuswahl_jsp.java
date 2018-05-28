@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class restaurants_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class restaurantAuswahl_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -47,7 +47,7 @@ public final class restaurants_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    \n");
       out.write("<head>\n");
       out.write("    \n");
-      out.write("        <title>Restaurants</title>\n");
+      out.write("        <title>Restaurants 2</title>\n");
       out.write("        <meta charset=\"utf-8\">\n");
       out.write("    \n");
       out.write("</head>\n");
@@ -62,44 +62,18 @@ public final class restaurants_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("       </p>\n");
       out.write("    \n");
       out.write("        <link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\"> \n");
-      out.write("        <h1>Küche auswählen</h1>\n");
+      out.write("        <h1>Restaurants</h1>\n");
       out.write("        <h2>Herzlich Willkommen</h2>\n");
       out.write("        <p> Du hast dich für Food Lover entschieden und damit eine gute Wahl getroffen. Entdecke jetzt dein zukünftiges     Lieblings- Restaurants in München.\n");
       out.write("        </p>\n");
       out.write("    \n");
       out.write("    <form>\n");
       out.write("        \n");
-      out.write("        Auf was hast du Lust?<br>\n");
+      out.write("        Deine Suche ergab folgende Restaurants:<br>\n");
       out.write("        <br>\n");
-      out.write("            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160\n");
-      out.write("        <input type=\"checkbox\" name=\"asiatisch\" value=\"asiatisch\" tabindex=\"1\">Asiatisch \n");
-      out.write("        <br><br>   \n");
-      out.write("            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160\n");
-      out.write("        <input type=\"checkbox\" name=\"indisch\" value=\"indisch\" tabindex=\"1\">Indisch\n");
-      out.write("        <br><br>\n");
-      out.write("            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160\n");
-      out.write("        <input type=\"checkbox\" name=\"italienisch\" value=\"italienisch\" tabindex=\"1\">Italienisch\n");
-      out.write("        <br><br>\n");
-      out.write("            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160\n");
-      out.write("        <input type=\"checkbox\" name=\"türkisch\" value=\"türkisch\" tabindex=\"1\">Türkisch\n");
-      out.write("        <br><br>\n");
-      out.write("      \n");
-      out.write("            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160\n");
-      out.write("        <input type=\"checkbox\" name=\"persisch\" value=\"persisch\" tabindex=\"1\">Persisch\n");
-      out.write("          \n");
-      out.write("    \n");
-      out.write("    </form>\n");
+      out.write("        </form>\n");
       out.write("    \n");
       out.write("    <div align=\"left\"></div>\n");
-      out.write("    \n");
-      out.write("    <a href= class=button> <br><br> \n");
-      out.write("     \n");
-      out.write("    <button>Los geht`s</button>\n");
-      out.write("\n");
-      out.write("    </a>\n");
-      out.write("  \n");
-      out.write("    \n");
-      out.write("\n");
       out.write("</body>\n");
       out.write("\n");
       out.write("\n");

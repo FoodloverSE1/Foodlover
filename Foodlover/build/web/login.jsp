@@ -13,7 +13,7 @@
         
            <p>
             <label for="Email Adresse"> Email Adresse:
-            <input id="Email Adresse" type="email" required />
+            <input id="Email-Adresse" type="email" required />
             </label>  
             </p>
             
@@ -34,11 +34,11 @@
             <img src="WEB-INF/NochKeinFoodlover.PNG" height="auto" width="25%" >
         
             <p>
-                <a href="Registrieren.html"><button>Jetzt Registrieren</button></a>
+                <a href="register.jsp"><button>Jetzt Registrieren</button></a>
             </p>
         
             <p>
-            <a href="Besten_Restaurants">Oder direkt zu den Besten Restaurants der Stadt?</a>
+            <a href="überuns.jsp">Oder direkt zu den Besten Restaurants der Stadt?</a>
             </p>
     </form>
     </body>

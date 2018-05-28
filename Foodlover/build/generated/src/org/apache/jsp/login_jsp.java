@@ -56,7 +56,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        \n");
       out.write("           <p>\n");
       out.write("            <label for=\"Email Adresse\"> Email Adresse:\n");
-      out.write("            <input id=\"Email Adresse\" type=\"email\" required />\n");
+      out.write("            <input id=\"Email-Adresse\" type=\"email\" required />\n");
       out.write("            </label>  \n");
       out.write("            </p>\n");
       out.write("            \n");
@@ -77,11 +77,11 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <img src=\"WEB-INF/NochKeinFoodlover.PNG\" height=\"auto\" width=\"25%\" >\n");
       out.write("        \n");
       out.write("            <p>\n");
-      out.write("                <a href=\"Registrieren.html\"><button>Jetzt Registrieren</button></a>\n");
+      out.write("                <a href=\"register.jsp\"><button>Jetzt Registrieren</button></a>\n");
       out.write("            </p>\n");
       out.write("        \n");
       out.write("            <p>\n");
-      out.write("            <a href=\"Besten_Restaurants\">Oder direkt zu den Besten Restaurants der Stadt?</a>\n");
+      out.write("            <a href=\"überuns.jsp\">Oder direkt zu den Besten Restaurants der Stadt?</a>\n");
       out.write("            </p>\n");
       out.write("    </form>\n");
       out.write("    </body>\n");

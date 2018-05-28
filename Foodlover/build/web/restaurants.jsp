@@ -1,10 +1,10 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="de">
     
 <head>
     
-        <title>FOODLOVER - RESTAURANT</title>
+        <title>Restaurants</title>
         <meta charset="utf-8">
     
 </head>
@@ -19,9 +19,9 @@
        </p>
     
         <link rel="stylesheet" href="style.css" type="text/css"> 
-        <h1>KÃ¼che auswÃ¤hlen</h1>
+        <h1>Küche auswählen</h1>
         <h2>Herzlich Willkommen</h2>
-        <p> Du hast dich fÃ¼r Food Lover entschieden und damit eine gute Wahl getroffen. Entdecke jetzt dein zukÃ¼nftiges     Lieblings- Restaurants in MÃ¼nchen.
+        <p> Du hast dich für Food Lover entschieden und damit eine gute Wahl getroffen. Entdecke jetzt dein zukünftiges     Lieblings- Restaurants in München.
         </p>
     
     <form>
@@ -29,29 +29,21 @@
         Auf was hast du Lust?<br>
         <br>
             &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
-        <input type="checkbox" name="amerikanisch" value="amerikanisch" tabindex="1">Amerikanisch 
-            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
-        <input type="checkbox" name="asiatisch" value="asiatisch" tabindex="1">Asiatisch  <br />
-        <br />
+        <input type="checkbox" name="asiatisch" value="asiatisch" tabindex="1">Asiatisch 
+        <br><br>   
             &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
-        <input type="checkbox" name="griechisch" value="griechisch" tabindex="1">Griechisch
-            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 &#160&#160&#160
-        <input type="checkbox" name="indisch" value="indisch" tabindex="1">Indisch <br>
-        <br />
+        <input type="checkbox" name="indisch" value="indisch" tabindex="1">Indisch
+        <br><br>
             &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
         <input type="checkbox" name="italienisch" value="italienisch" tabindex="1">Italienisch
-            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 &#160&#160&#160&#160
-        <input type="checkbox" name="kroatisch" value="kroatisch" tabindex="1">Kroatisch <br />
-        <br>
+        <br><br>
             &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
-        <input type="checkbox" name="mexikanisch" value="mexikanisch" tabindex="1">Mexikanisch
-            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
-        <input type="checkbox" name="spanisch" value="spanisch" tabindex="1">Spanisch <br />
-        <br>
+        <input type="checkbox" name="türkisch" value="türkisch" tabindex="1">Türkisch
+        <br><br>
+      
             &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
-        <input type="checkbox" name="tÃ¼rkisch" value="tÃ¼rkisch" tabindex="1">TÃ¼rkisch
-            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 &#160&#160&#160&#160&#160&#160&#160
-        <input type="checkbox" name="persisch" value="persisch" tabindex="1">Persisch <br />
+        <input type="checkbox" name="persisch" value="persisch" tabindex="1">Persisch
+          
     
     </form>
     
@@ -59,7 +51,9 @@
     
     <a href= class=button> <br><br> 
      
-    <button>Los geht`s</button></a>
+    <button>Los geht`s</button>
+
+    </a>
   
     
 
