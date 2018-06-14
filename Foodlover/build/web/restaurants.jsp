@@ -10,12 +10,12 @@
 </head>
 
 <body>
-       <img src="FoodLover.logo.png" alt="Logo" >
+      <th> <img src="logo.PNG" alt="logo.PNG"/></th> 
       
        <div align="left"></div>    
-       <p>  <input type="button" name="Home" value="Home" onClick="open.window()">
-            <input type="button" name="Restaurants" value="Restaurants" onClick="open.window()">
-            <input type="button" name="Kontakt" value="Kontakt" onClick="open.window()">
+       <p>  <input type="button" name="Home" value="Home">
+           <input type="button" name="Restaurants" value="Restaurants">
+           <input type="button" name="Kontakt" value="Kontakt">
        </p>
     
         <link rel="stylesheet" href="style.css" type="text/css"> 

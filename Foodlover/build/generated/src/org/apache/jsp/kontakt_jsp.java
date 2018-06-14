@@ -41,26 +41,23 @@ public final class kontakt_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("\n");
       out.write("    <head>\n");
       out.write("        <meta charset=\"utf-8\">\n");
-      out.write("        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
       out.write("        <title>FOODLOVER - KONTAKT</title>\n");
-      out.write("        <meta name=\"description\" content=\"Ein interaktiver Wegweiser für die ersten Schritte mit Brackets.\">\n");
       out.write("        <link rel=\"stylesheet\" href=\"main.css\">\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("\n");
       out.write("       <body>\n");
-      out.write("       <img src=\"FoodLover.logo.png\" alt=\"Logo\" >\n");
+      out.write("       <th> <img src=\"logo.PNG\" alt=\"logo.PNG\"/></th>\n");
       out.write("      \n");
       out.write("       <div align=\"left\"></div>    \n");
-      out.write("       <p>  <input type=\"button\" name=\"Home\" value=\"Home\" onClick=\"open.window()\">\n");
-      out.write("            <input type=\"button\" name=\"Restaurants\" value=\"Restaurants\" onClick=\"open.window()\">\n");
-      out.write("            <input type=\"button\" name=\"Kontakt\" value=\"Kontakt\" onClick=\"open.window()\">\n");
+      out.write("       <p>  <input type=\"button\" name=\"Home\" value=\"Home\">\n");
+      out.write("           <input type=\"button\" name=\"Restaurants\" value=\"Restaurants\">\n");
+      out.write("            <input type=\"button\" name=\"Kontakt\" value=\"Kontakt\">\n");
       out.write("       </p>\n");
       out.write("    <p> <b>Adresse</b></p>\n");
       out.write("    <p> Lothstraße 64</p>\n");
@@ -72,24 +69,6 @@ public final class kontakt_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <p>FoodLover@hm.edu</p>\n");
       out.write("<p><b><em>Schreib uns</em></b></p>\n");
       out.write("  <p>\n");
-      out.write("            <label for=\"Email Adresse\"> Email Adresse:\n");
-      out.write("            <input id=\"Email Adresse\" type=\"email\" required />\n");
-      out.write("            </label>  \n");
-      out.write("            </p>\n");
-      out.write("            \n");
-      out.write("            <p>\n");
-      out.write("            <label for=\"Name\"> Name:\n");
-      out.write("            <input id=\"Name\" type=\"Name\" required />\n");
-      out.write("            </label>\n");
-      out.write("           </p>\n");
-      out.write("           <p>\n");
-      out.write("            <label for=\"Nachricht\"> Nachricht:\n");
-      out.write("            <input id=\"Nachricht\" type=\"Nachricht\" required />\n");
-      out.write("            </label>\n");
-      out.write("           </p>\n");
-      out.write("            <p>\n");
-      out.write("                <a href=\"Abschicken.html\"><button>Abschicken</button></a>\n");
-      out.write("            </p>\n");
       out.write("        ");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

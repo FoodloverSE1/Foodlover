@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC>
 <html lang="de">
 <head>
@@ -8,7 +7,7 @@
 </head> 
     
     <body>
-        <img src="WEB-INF/FoodLoverlogo.PNG" alt="FoodLover_Logo" height="auto" width="25%" >
+    <th> <img src="logo.PNG" alt="logo.PNG"/></th>
     <form action="send.html" method="post">
         
            <p>

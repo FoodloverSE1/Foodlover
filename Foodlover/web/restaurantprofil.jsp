@@ -9,11 +9,11 @@
     </head>
     </div>
   <body>
-
+      <th> <img src="logo.PNG" alt="logo.PNG"/></th>
     <link href="Content/css/bootstrap.min.css" rel="stylesheet">
     <link href="Content/css/font-awesome.min.css" rel="stylesheet">
     
-    <img src="FoodLover.logo.png" alt="Logo" >
+   
       
 <div align="left"></div>    
       <p>  <input type="button" name="Home" value="Home" onClick="open.window()">
@@ -37,13 +37,7 @@
         </p>    
         
     <div align=left>
-        <p>
-        Beschreibung des Restaurants:
-            </p>
       
-      <p> <font size="12" face="Savoye LET">Bewertungen</font> </p>
-      
-      <p> <input type="text"> </p>
       
       <span class='review-holder'>
   <span class='review'>

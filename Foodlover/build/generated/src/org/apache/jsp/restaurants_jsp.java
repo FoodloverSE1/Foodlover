@@ -53,12 +53,12 @@ public final class restaurants_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</head>\n");
       out.write("\n");
       out.write("<body>\n");
-      out.write("       <img src=\"FoodLover.logo.png\" alt=\"Logo\" >\n");
+      out.write("      <th> <img src=\"logo.PNG\" alt=\"logo.PNG\"/></th> \n");
       out.write("      \n");
       out.write("       <div align=\"left\"></div>    \n");
-      out.write("       <p>  <input type=\"button\" name=\"Home\" value=\"Home\" onClick=\"open.window()\">\n");
-      out.write("            <input type=\"button\" name=\"Restaurants\" value=\"Restaurants\" onClick=\"open.window()\">\n");
-      out.write("            <input type=\"button\" name=\"Kontakt\" value=\"Kontakt\" onClick=\"open.window()\">\n");
+      out.write("       <p>  <input type=\"button\" name=\"Home\" value=\"Home\">\n");
+      out.write("           <input type=\"button\" name=\"Restaurants\" value=\"Restaurants\">\n");
+      out.write("           <input type=\"button\" name=\"Kontakt\" value=\"Kontakt\">\n");
       out.write("       </p>\n");
       out.write("    \n");
       out.write("        <link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\"> \n");

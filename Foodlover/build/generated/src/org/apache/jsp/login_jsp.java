@@ -41,7 +41,6 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
       out.write("<!DOCTYPE html PUBLIC>\n");
       out.write("<html lang=\"de\">\n");
       out.write("<head>\n");
@@ -51,7 +50,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</head> \n");
       out.write("    \n");
       out.write("    <body>\n");
-      out.write("        <img src=\"WEB-INF/FoodLoverlogo.PNG\" alt=\"FoodLover_Logo\" height=\"auto\" width=\"25%\" >\n");
+      out.write("    <th> <img src=\"logo.PNG\" alt=\"logo.PNG\"/></th>\n");
       out.write("    <form action=\"send.html\" method=\"post\">\n");
       out.write("        \n");
       out.write("           <p>\n");

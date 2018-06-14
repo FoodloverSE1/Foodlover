@@ -52,11 +52,11 @@ public final class restaurantprofil_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("    </head>\n");
       out.write("    </div>\n");
       out.write("  <body>\n");
-      out.write("\n");
+      out.write("      <th> <img src=\"logo.PNG\" alt=\"logo.PNG\"/></th>\n");
       out.write("    <link href=\"Content/css/bootstrap.min.css\" rel=\"stylesheet\">\n");
       out.write("    <link href=\"Content/css/font-awesome.min.css\" rel=\"stylesheet\">\n");
       out.write("    \n");
-      out.write("    <img src=\"FoodLover.logo.png\" alt=\"Logo\" >\n");
+      out.write("   \n");
       out.write("      \n");
       out.write("<div align=\"left\"></div>    \n");
       out.write("      <p>  <input type=\"button\" name=\"Home\" value=\"Home\" onClick=\"open.window()\">\n");
@@ -80,13 +80,7 @@ public final class restaurantprofil_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("        </p>    \n");
       out.write("        \n");
       out.write("    <div align=left>\n");
-      out.write("        <p>\n");
-      out.write("        Beschreibung des Restaurants:\n");
-      out.write("            </p>\n");
       out.write("      \n");
-      out.write("      <p> <font size=\"12\" face=\"Savoye LET\">Bewertungen</font> </p>\n");
-      out.write("      \n");
-      out.write("      <p> <input type=\"text\"> </p>\n");
       out.write("      \n");
       out.write("      <span class='review-holder'>\n");
       out.write("  <span class='review'>\n");
