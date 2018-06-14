@@ -1,0 +1,111 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+import java.sql.*;
+
+public final class test1_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>Log dich ein!</title>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("        \n");
+      out.write("       ");
+
+            try {
+            String name = request.getParameter("Benutzer");
+            String password = request.getParameter("Passwort");
+            
+            String sql ="insert into Nutzer(Username,Password) values (?,?)";
+            //Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+            //Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/se1_foodlover","root","Zwilling00");
+ 			String connectionURL = "jdbc:mysql://gauss.wi.hm.edu:3070/se1_foodlover?useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false";
+ 			Connection connection = null;
+ 			 Class.forName("com.mysql.cj.jdbc.Driver");
+ 			connection=DriverManager.getConnection(connectionURL, "hashemi", "Said.96");
+           //Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/reg","root","");
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1,name);
+            ps.setString(2,password);
+            ps.executeUpdate();
+            
+            out.println("Du hast dich erfolgreich registriert!");
+            
+            
+            
+        } catch (ClassNotFoundException | SQLException ex) {
+            //Logger.getLogger(Registrierung.class.getName()).log(Level.SEVERE, null, ex);
+            ex.printStackTrace();
+        }
+        
+      out.write("  \n");
+      out.write("        \n");
+      out.write("        <div align =\"center\">\n");
+      out.write("             <h2> Log dich ein!</h2>\n");
+      out.write("             <form\n");
+      out.write("                 action=\"home.jsp\" method=\"post\"> \n");
+      out.write("                 Benutzername: <input type=\"text\" name=\"Benutzer\" required=\"required\">\n");
+      out.write("                 Passwort: <input type=\"password\" name=\"Passwort\" required=\"required\">\n");
+      out.write("                 <input type=\"submit\" value=\"Jetzt einloggen!\">\n");
+      out.write("                \n");
+      out.write("            </form>\n");
+      out.write("        </div>\n");
+      out.write("          \n");
+      out.write("\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
